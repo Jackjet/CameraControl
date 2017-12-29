@@ -1,0 +1,120 @@
+.width{width:1030px;margin: 0 auto;}
+.bordshadrad{border: 1px solid #C2C2C2;box-shadow: 0px 0px 1px #C2C2C2;border-radius:2px ;}
+/*在线学习页头部*/
+.manage_header{
+	position:fixed;top:0;z-index: 999;
+}
+/*input和textarea placeholder字体颜色*/
+input::-webkit-input-placeholder { /* WebKit browsers */
+　　color:#999;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　color:#999;
+}
+textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　color:#999;
+}
+textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color:#999;
+}
+/*icon*/
+.icon{color: #fff;font-size: 16px;text-align: center;display: block;}
+/*教案ico*/
+.g-ico{display: inline-block;}
+
+/**/
+.h-ico{display: inline-block;}
+
+/**/
+.a-ico{display: inline-block;}
+
+/*头部*/
+.account_area li{float:left;}
+.account_area li .dropdown-toggle{width:60px;height:50px;position:relative;display: block;}
+.account_area li .icon{line-height: 70px;display: block;}
+.badge{width:18px;height:18px;border-radius:50% ;border: 1px solid #fff;display: block;position:absolute;top:16px;left:8px;font-size: 12px;color:#fff;text-align: center;line-height: 18px;z-index: 2;background: #1dc3eb;}
+.login_area{margin:7px 0px;display: block;}
+.login_area .avatar{float:left;width:36px;height:36px;border: 1px solid #a0d468;background: #a0d468;border-radius:50% ;overflow: hidden;}
+.login_area h2{float:left;font-size:12px;padding:0px 10px;line-height: 38px;color:#fff;}
+
+.repository_header_wrap{width:100%;height:50px;background:#0C6FC0  no-repeat center top;}
+.repository_header{height:50px;}
+.repository_header .logo{height:40px;padding:5px;display: block;}
+/*选择部门*/
+.choiceversion{margin-left: 12px;margin-top: 15px;padding-bottom:5px;cursor:pointer;position:relative;}
+.choiceversion strong{float:left;color:#fff;font-size: 18px;}
+.choiceversion .trigger{width:16px;height:14px;border: 1px solid #007EB6;display:block;background: #047ed7;border-radius:2px ;margin:2px 0px 2px 8px;float:left;}
+.choiceversion .contentbox{color: #555;z-index: 999;width: 240px;padding: 15px 25px;background-color:#fff;border: 1px solid #c2c2c2;position:absolute;left:0;top:100%;display: none;}
+.choiceversion .contentbox .subtitle{font-weight: normal;    height: 35px;border-bottom: 1px solid #e6e6e8;font-size: 18px;color: #333;}
+.choiceversion .contentbox .item{width:100%;margin-top: 15px;}
+.choiceversion .contentbox .item input{width:240px;height:30px;}
+.choiceversion .contentbox .item select{width:244px;height:33px;}
+.btn_sure{display:block;line-height:30px;text-align:center;width:100px;height:30px;background: #1472B9;border-radius:2px ;color:#fff;margin: 0 auto;}
+/*个人网盘*/
+.wenzi_tips{height:18px;padding:6px 11px;border-left:1px solid #fff;margin:10px 0px 10px 5px ;}
+.personal_drive{width:95px;height: 30px;border-left:1px solid #fff;background: url(../images/skydrive.png) no-repeat center center;margin:20px 0px 20px 5px ;}
+.testsystem{width:95px;height: 30px;border-left:1px solid #fff;background: url(../images/testsystem.png) no-repeat center center;margin:20px 0px 20px 5px ;}
+.coursesystem{width:95px;height: 30px;border-left:1px solid #fff;background: url(../images/coursesystem.png) no-repeat center center;margin:20px 0px 20px 5px ;}
+/*搜索*/
+.search_account .search{position:relative;margin-top: 19px;margin-right: 10px;width:175px;height:34px;background: #1d87d6;border-radius:2px ;}
+.search_account .search input{width:145px;height:32px;background: #1d87d6;color:#666;border: none;color:#74B5E5;border-radius:2px ;float:right;}
+.search i{color:#74B6E8;position:absolute;top:8px;left:8px;}
+.settings{height:50px;width:40px;}
+.settings:hover{background:#fff;}
+.settings:hover i{color:#0975BE;}
+.settings .icon{font-size: 21px;display:block;text-align:center;color:#fff;line-height: 50px;}
+/*setting_none*/
+.setting_none{width:80px;display: none;position:absolute;top:100%;right:0;z-index:99999;}
+.setting_none{background:#fff;color:#666;border:1px solid #ccc;border-top:none;border-bottom:none;}
+.setting_none span{width:100%;height:30px;display:block;color:#666;border-bottom:1px solid #ccc;font-size:14px;line-height: 30px;text-align: center;cursor:pointer;}
+.setting_none span:hover{background:#65CE67;color:#fff;}
+/*nav*/
+.navbar ul li{float:left;height:50px;margin-left: 15px;}
+.navbar ul li a{display: block;padding:0px 15px;height:50px;line-height: 50px;text-align: center;font-size: 18px;color:#fff;}
+.navbar ul li a:hover{background: #1775bc;}
+.navbar ul li.active a{background: #1775bc;}
+/*分页*/
+.page{padding:10px;text-align: center;}
+.page a{padding:2px 6px;margin:0px 5px;border:1px solid #E9E7E7;border-radius:2px ;font-size: 12px;}
+.page a.now{color:#fff; background:#207abd; padding:2px 6px; }
+.page a.now:hover{color:#fff;text-decoration:none;}
+.page a:hover{color:#207abd;text-decoration: underline;}
+.page span{ font-size:12px;}
+
+/*bgcolor+border*/
+.bgblue{background: #0B75C1;}
+.bgorange{background: #ffce55;}
+.bgpink{background: #ea5666;}
+.bgred{background: #fb6e52;}
+.bggreen{background: #a0d468;}
+.borderblue{border-color: #0B75C1;}
+.borderorange{border-color: #ffce55;}
+.borderpink{border-color: #ea5666;}
+.borderred{border-color: #fb6e52;}
+.colorgreen{color: #a0d468;}
+.colorblue{color: #0B75C1;}
+.colororange{color: #ffce55;}
+.colorpink{color: #ea5666;}
+.colorred{color: #fb6e52;}
+.colorgreen{color: #a0d468;}
+/*单选题 难易*/
+.test_type{background: #fff;border: 1px solid #CFCFCF;color:#4FC95B;padding:3px 5px;font-size: 14px;border-radius:2px ;display: inline-block;}
+.test_easy{background: #3bbb53;color:#fff;margin-left:5px;padding:3px 5px;font-size: 14px;border-radius:2px ;display: inline-block;}
+.test_trouble{background: #be2a12;color:#fff;margin-left:5px;padding:3px 5px;font-size: 14px;border-radius:2px ;display: inline-block;}
+.test_normal{background: #2ca10d;color:#fff;margin-left:5px;padding:3px 5px;font-size: 14px;border-radius:2px ;display: inline-block;}
+/*遮罩层*/
+#mask{width:100%;height:100%;background: #000;opacity:0.5;filter: alpha(opacity=50);position:fixed;top:0;left:0;z-index: 9998;}
+.btn{width:118px;height:30px;border: 1px solid #02609c;background: #1783c7;border-radius:2px ;display:block;margin: 10px auto;text-align: center;font-size: 14px;color:#fff;}
+
+/*footer*/
+footer{background: #1775bc;height:38px;}
+.footer{padding: 8px 0px;}
+.footer .logo{/*width:135px;*//*border-right:1px solid #438ec7 ;*/}
+.footer .footer_tip{height:67px;width:110px;border-left:1px solid #1569a9 ;background: url(../images/students_index.png) no-repeat center center;}
+.online_select{height:67px;width:110px;border-left:1px solid #1569a9 ;background: url(../images/course_select.png) no-repeat center center;}
+.footer_right p{font-size: 12px;color:#fff;line-height: 22px;text-align: center;}
+
+
+.hover{transform: scale(1.2);-webkit-transform: scale(1.2);-ms-transform: scale(1.2);-moz-transform: scale(1.2);}
+
+.error{background:url(../images/error.png) no-repeat center center;height:500px;}

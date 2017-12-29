@@ -1,0 +1,76 @@
+﻿<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+<div id="canvas">
+    <div id="move"></div>
+</div>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+
+    #canvas {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    #move {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #0F0;
+    }
+
+    .spirit {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+    }
+</style>
+<script>
+    var canvas = document.getElementById("canvas");
+    var spirit, startX, startY;
+    var a = 1;
+    // touch start listener
+    function touchStart(event) {
+        event.preventDefault();
+        if (spirit || ! event.touches.length) return;
+        var touch = event.touches[0];
+        startX = touch.pageX;
+        startY = touch.pageY;
+        spirit = document.createElement("div");
+        spirit.className = "spirit";
+        spirit.style.left = startX - 50 + "px";
+        spirit.style.top = startY - 50 + "px";
+        canvas.appendChild(spirit);
+        spirit.innerHTML = a++;
+    }
+    // touch move listener
+    function touchMove(event) {
+        event.preventDefault();
+        if (!spirit || !event.touches.length) return;
+        var touch = event.touches[0];
+        //spirit.style.left = touch.pageX - 50 + "px";
+        //spirit.style.top = touch.pageY - 50 + "px";
+        //或者用下面的
+        var x = touch.pageX - startX;
+        var y = touch.pageY - startY;
+        spirit.style.webkitTransform = 'translate(' + x + 'px, ' + y + 'px)';
+    }
+    // touch end listener
+    function touchEnd(event) {
+        if (!spirit) return;
+        canvas.removeChild(spirit);
+        spirit = null;
+    }
+    // add touch start listener
+    canvas.addEventListener("touchstart", touchStart, false);
+    canvas.addEventListener("touchmove", touchMove, false);
+    canvas.addEventListener("touchend", touchEnd, false);
+</script>

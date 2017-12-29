@@ -1,0 +1,462 @@
+ERROR 2017-01-06 05:06:54,850   811ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:06:55,211  1172ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:21,597   835ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:25,261  4499ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:26,563  5801ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 05:07:26,652  5890ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:27,074  6312ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 05:07:27,203  6441ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:27,341  6579ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 05:07:28,714  7952ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:29,431  8669ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 05:07:31,634 10872ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:32,736 11974ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 05:07:34,647 13885ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:37,475 16713ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:38,928 18166ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:39,977 19215ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 05:07:40,897 20135ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:41,427 20665ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 05:07:41,577 20815ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:42,117 21355ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 05:07:42,311 21549ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:43,042 22280ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:43,167 22405ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:43,684 22922ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:43,837 23075ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:44,788 24026ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:46,026 25264ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:46,039 25277ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:07:46,080 25318ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:28,666   824ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:28,915  1073ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:32,728  4886ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:34,770  6927ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:35,668  7825ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:40,290 12448ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:41,238 13395ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:41,625 13783ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:44,927 17084ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:48,133 20290ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:49,588 21745ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:50,177 22334ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:51,638 23796ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:53,708 25865ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:54,951 27109ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:09:59,310 31467ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:10:00,344 32502ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:10:03,604 35762ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:10:04,553 36711ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:10:05,599 37757ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:10:06,467 38624ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:10:09,652 41810ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:12:35,313   761ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:12:35,535   983ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:49:10,441   810ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:49:10,677  1046ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:49:10,714  1083ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:49:10,726  1096ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:49:27,630 17999ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:49:28,142 18511ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:49:29,385 19754ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 05:49:30,300 20670ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 06:05:52,855 1003224ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 06:05:54,240 1004609ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 06:05:54,920 1005290ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, List`1 sendData_String_List, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 84
+ERROR 2017-01-06 06:05:56,483 1006852ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 06:06:02,902 1013271ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 06:06:02,968 1013337ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 06:06:03,451 1013820ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 06:06:04,597 1014966ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 06:06:05,114 1015484ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 06:06:06,175 1016544ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com5”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 09:15:15,570   649ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 09:15:15,878   957ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 09:15:16,319  1398ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 09:15:16,528  1607ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com4”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40
+ERROR 2017-01-06 14:41:21,103   719ms Com_Manage             WriteLog           - Error
+System.IO.IOException: 端口“com6”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 CameraControl.Common.Com_Manage.SendData(String com_String, String sendData_String, Int32 dataLength) 位置 c:\Users\Administrator\Desktop\CameraControl\CameraControl\Common\Com_Manage.cs:行号 40

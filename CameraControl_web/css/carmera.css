@@ -1,0 +1,237 @@
+﻿<style > .myexam {
+    padding: 20px;
+}
+
+.camera_right {
+    width: 340px;
+    border-radius: 3px;
+}
+
+    .camera_right ul li {
+        border: 2px solid #C2C2C2;
+        margin: 10px 10px;
+        border-radius: 3px;
+        padding: 15px;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+    }
+
+        .camera_right ul li img {
+            width: 115px;
+        }
+
+        .camera_right ul li span {
+            margin-left: 20px;
+            line-height: 100px;
+            color: #555;
+            font-size: 22px;
+        }
+
+.camera_left {
+    width: 303px;
+    height: 422px;
+    padding: 10px;
+}
+
+.camera_right ul li:hover {
+    border: 2px solid #75CE66;
+}
+
+    .camera_right ul li:hover div {
+        display: block;
+    }
+
+.camera_right ul li.active {
+    border: 2px solid #75CE66;
+}
+
+    .camera_right ul li.active div {
+        display: block;
+    }
+
+.camera_right ul li div {
+    width: 40px;
+    height: 40px;
+    background: #75CE66;
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    display: none;
+}
+
+    .camera_right ul li div .icon {
+        width: 25px;
+        line-height: 25px;
+    }
+
+.camera_control {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#btn {
+    width: 578px;
+    margin: 0 auto;
+}
+
+.control {
+    position: relative;
+    width: 244px;
+    margin: 30px auto;
+}
+
+    .control div {
+        padding: 15px 0px;
+        height: 60px;
+    }
+
+    .control .text {
+        border: none;
+        /*border: 1px solid #C2C2C2;
+                border-radius: 2px;*/
+        width: 85px;
+        height: 30px;
+        color: #666;
+        margin: 12px;
+    }
+
+    .control .btncoontrol {
+        width: 60px;
+        height: 60px;
+        background: url(/images/control.png) no-repeat;
+        background-size: 160px 134px;
+        display: block;
+        margin: 0px 10px;
+    }
+
+#up {
+    background-position: -15px -4px;
+}
+
+#upleft {
+    background-position: -15px -4px;
+    transform: rotate(-160deg);
+    -ms-transform: rotate(-160deg);
+    -webkit-transform: rotate(-160deg);
+    -moz-transform: rotate(-160deg);
+}
+
+#upright {
+    background-position: -15px -4px;
+    transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+}
+
+#down {
+    background-position: -15px -68px;
+    transform: rotate(45deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+}
+
+#downleft {
+    background-position: -15px -68px;
+    transform: rotate(75deg);
+    -ms-transform: rotate(75deg);
+    -webkit-transform: rotate(75deg);
+    -moz-transform: rotate(75deg);
+}
+
+#downright {
+    background-position: -15px -68px;
+    transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+
+#left {
+    background-position: -15px -68px;
+}
+
+#right {
+    background-position: -15px -68px;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+
+#stop {
+    background: url(/images/stop_2.jpg) no-repeat;
+    background-size: 60px 60px;
+}
+
+.controlbtn * {
+    margin: 15px 0px 30px 15px;
+}
+
+.switchbtn {
+    width: 152px;
+    background: url(/images/close.png) no-repeat;
+    background-size: cover;
+    height: 60px;
+    display: block;
+    /*margin-left:50px;*/
+}
+
+    .switchbtn.active {
+        background: url(/images/open.png) no-repeat;
+        background-size: cover;
+        /*margin-left:50px;*/
+    }
+
+.zoom1 {
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-image: url(/images/btnZoomLarger.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*margin-left:50px;*/
+    /*float:left;*/
+}
+
+.zoom2 {
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-image: url(/images/btnZoomSmaller.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 29px;
+    /*float:right;*/
+}
+
+.controlbtn {
+    margin-top: 50px;
+    width: 160px;
+}
+
+.camera_center {
+    width: 273px;
+    height: 422px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.img_fullscrenn {
+    width: 60px;
+    height: 60px;
+    margin-left: 105px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/btnFullScreen2.png);
+}
+
+
+
+
+
+</style >

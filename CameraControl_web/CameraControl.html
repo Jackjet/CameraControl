@@ -1,0 +1,465 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+
+    <title>云平台控制</title>
+    <!--图标样式-->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/repository.css" />
+    <link rel="stylesheet" type="text/css" href="css/onlinetest.css" />
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/Handel_Js.js"></script>
+    <link href="css/carmera.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!--<div id="xuanfu" style="position: fixed; top: 50px; left: 0;">
+                <img class="img_fullscrenn"  />
+            </div>-->
+            <!--header-->
+            <header class="repository_header_wrap manage_header">
+                <div class="width repository_header clearfix">
+                    <a id="xuanfu" class="logo fl" href="javascript:;">
+                        <img src="images/logo.png" />
+                    </a>
+                    <div class="search_account fr clearfix">
+                        <ul class="account_area fl">
+                            <li>
+                                <!-- <a class="login_area clearfix">
+                                    <div class="avatar">
+                                        <img src="<%=UserInfo.AbsHeadPic%>" />
+                                    </div>
+                                    <h2><%=UserInfo.Name%></h2>
+                                </a> -->
+                            </li>
+                        </ul>
+
+                        <div class="settings fl pr">
+                            <a href="javascript:;">
+                                <i class="icon icon-cog"></i>
+                            </a>
+                            <div class="setting_none">
+                                <span onclick="logOut()">退出</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="onlinetest_item width pt90">
+                <div class="myexam bordshadrad">
+
+                    <div class="camera_top clearfix">
+
+                        <div class="camera_left fl bordshadrad">
+                            <div style="margin-bottom:5px;font-size:22px">云平台控制</div>
+                            <div class="control">
+                                <div class="clearfix">
+                                    <a href="javascript:;" class="btncoontrol fl" id="upleft"></a>
+                                    <a href="javascript:;" class="btncoontrol fl" id="up"></a>
+                                    <a href="javascript:;" class="btncoontrol fl" id="upright"></a>
+                                </div>
+                                <div class="clearfix">
+
+                                    <a href="javascript:;" class="btncoontrol fl" id="left"></a>
+                                    <!--隐藏控件（留下所占位置）-->
+                                    <a href="javascript:;" class="btncoontrol fl" style="visibility: hidden;" id="stop"></a>
+
+                                    <a href="javascript:;" class="btncoontrol fl" id="right"></a>
+                                </div>
+                                <div class="clearfix">
+                                    <a href="javascript:;" class="btncoontrol fl" id="downleft"></a>
+                                    <a href="javascript:;" class="btncoontrol fl" id="down"></a>
+                                    <a href="javascript:;" class="btncoontrol fl" id="downright"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="camera_center bordshadrad fl">
+                            <div style="margin-bottom:5px;font-size:22px;">摄像机控制</div>
+                            <div class="controlbtn">
+                                <div style="width: 180px; margin-left: 50px;">
+                                    <a href="javascript:;" class="switchbtn" id="switchbtn"></a>
+                                </div>
+
+                                <div style="width: 180px; margin-left: 50px;">
+                                    <a href="javascript:;" id="zoomin" class="zoom1 fl"> </a>
+                                    <a href="javascript:;" id="zoomout" class="zoom2 fl"> </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="camera_right fr bordshadrad">
+                            <ul>
+                                <li class="clearfix active">
+                                    <img src="images/camera.png" alt="Alternate Text" class="fl" />
+                                    <span>摄像机(西南角)</span>
+                                    <div>
+                                        <i class="icon icon-ok"></i>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <img src="images/camera.png" alt="Alternate Text" class="fl" />
+                                    <span>摄像机(西北角)</span>
+                                    <div>
+                                        <i class="icon icon-ok"></i>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <img src="images/camera.png" alt="Alternate Text" class="fl" />
+                                    <span>摄像机(东北角)</span>
+                                    <div>
+                                        <i class="icon icon-ok"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer">
+                <div class="footer clearfix width">
+                    <div class="footer_right">
+                        <p>咨询电话: 010-83068508&nbsp;&nbsp;地址: 北京市丰台区南四环西路128号诺德中心3座7层 </p>
+                    </div>
+                </div>
+            </footer>
+            <script src="js/common.js"></script>
+            <script>
+                var IsMobil = false;
+
+                $(function () {
+                    var system = { Win: false, mac: false, xll: false, ipad: false }
+                    var p = navigator.platform;
+                    system.win = p.indexOf("Win") == 0;
+                    system.mac = p.indexOf("Max") == 0;
+                    system.xll = (p == "Xll") || (p.indexOf("Linux") == 0);
+                    system.ipad = (navigator.userAgent.match(/iPad/i) != null) ? true : false;
+                    //IsMobil = system.ipad;
+                    if (system.win || system.mac) {
+                        IsMobil = false;
+                    }
+                    else { IsMobil = true;}
+                   
+                })
+              
+
+                //去除浏览器当前默认右键菜单
+                document.oncontextmenu = function (event) {
+                    if (window.event) {
+                        event = window.event;
+                    } try {
+                        var the = event.srcElement;
+                        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) {
+                            return false;
+                        }
+                        return true;
+                    } catch (e) {
+                        return false;
+                    }
+                }
+
+
+
+                //事件类型，可以是touch类型,可以是click类型
+                var route_down_type = "touchstart";
+                var route_up_type = "touchend";
+                var route_tap_type = "touchstart";
+
+                //var route_down_type = "click";
+                //var route_up_type = "mouseover";
+                //var route_tap_type = "mouseout";
+
+                //全局变量,默认端口
+                var comtype = 'com4';
+
+                $(function () {
+
+
+                    if (IsMobil) {
+
+
+                        //置换端口（各个角落）
+                        $('.camera_right ul li').on(route_down_type, function () {
+                            $(this).addClass('active').siblings().removeClass('active');
+                            var n = $(this).index();
+                            if (n == 0) {
+                                comtype = 'com4';
+                            }
+                            if (n == 1) {
+                                comtype = 'com5';
+                            }
+                            if (n == 2) {
+                                comtype = 'com6';
+                            }
+                        });
+
+                        var isfullscreen = false;
+
+                        $('#xuanfu').on(route_tap_type, function () {
+                            if (!isfullscreen) {
+                                fullScreen();
+                                isfullscreen = true;
+                            }
+                            else {
+                                exitFullScreen();
+                                isfullscreen = false;
+                            }
+                        });
+
+
+                        $("#switchbtn").on(route_tap_type, switchPower);
+                        //左上
+                        $("#upleft").on(route_down_type, round_upleft);
+                        $("#upleft").on(route_up_type, switch_corner_stop);
+                        //上
+                        $("#up").on(route_down_type, round_up);
+                        $("#up").on(route_up_type, switch_stop);
+                        //右上
+                        $("#upright").on(route_down_type, round_upright);
+                        $("#upright").on(route_up_type, switch_corner_stop);
+
+                        //左侧
+                        $("#left").on(route_down_type, round_left);
+                        $("#left").on(route_up_type, switch_stop);
+                        //右侧
+                        $("#right").on(route_down_type, round_right);
+                        $("#right").on(route_up_type, switch_stop);
+
+                        //左下
+                        $("#downleft").on(route_down_type, round_downleft);
+                        $("#downleft").on(route_up_type, switch_corner_stop);
+                        //下
+                        $("#down").on(route_down_type, round_down);
+                        $("#down").on(route_up_type, switch_stop);
+                        //右下
+                        $("#downright").on(route_down_type, round_downright);
+                        $("#downright").on(route_up_type, switch_corner_stop);
+
+                        //聚焦放大
+                        $("#zoomin").on(route_down_type, jiaoju_add);
+                        $("#zoomin").on(route_up_type, jiaoju_stop);
+
+                        //聚焦缩小
+                        $("#zoomout").on(route_down_type, jiaoju_reduce);
+                        $("#zoomout").on(route_up_type, jiaoju_stop);
+                    }
+                    else {
+                        //置换端口（各个角落）
+                        $('.camera_right ul li').on('click', function () {
+                            $(this).addClass('active').siblings().removeClass('active');
+                            var n = $(this).index();
+                            if (n == 0) {
+                                comtype = 'com4';
+                            }
+                            if (n == 1) {
+                                comtype = 'com5';
+                            }
+                            if (n == 2) {
+                                comtype = 'com6';
+                            }
+                        })
+
+
+                        var isfullscreen = false;
+
+                        $('#xuanfu').on('click', function () {
+                            if (!isfullscreen) {
+                                fullScreen();
+                                isfullscreen = true;
+                            }
+                            else {
+                                exitFullScreen();
+                                isfullscreen = false;
+                            }
+                        });
+
+
+                        $("#switchbtn").on('click', switchPower);
+                        //左上
+                        $("#upleft").on("mousedown", round_upleft);
+                        $("#upleft").on("mouseup", switch_corner_stop);
+                        //上
+                        $("#up").on("mousedown", round_up);
+                        $("#up").on("mouseup", switch_stop);
+                        //右上
+                        $("#upright").on("mousedown", round_upright);
+                        $("#upright").on("mouseup", switch_corner_stop);
+
+                        //左侧
+                        $("#left").on("mousedown", round_left);
+                        $("#left").on("mouseup", switch_stop);
+                        //右侧
+                        $("#right").on("mousedown", round_right);
+                        $("#right").on("mouseup", switch_stop);
+
+                        //左下
+                        $("#downleft").on("mousedown", round_downleft);
+                        $("#downleft").on("mouseup", switch_corner_stop);
+                        //下
+                        $("#down").on("mousedown", round_down);
+                        $("#down").on("mouseup", switch_stop);
+                        //右下
+                        $("#downright").on("mousedown", round_downright);
+                        $("#downright").on("mouseup", switch_corner_stop);
+
+                        //聚焦放大
+                        $("#zoomin").on("mousedown", jiaoju_add);
+                        $("#zoomin").on("mouseup", jiaoju_stop);
+
+                        //聚焦缩小
+                        $("#zoomout").on("mousedown", jiaoju_reduce);
+                        $("#zoomout").on("mouseup", jiaoju_stop);
+                    }
+                })
+
+                //电源开关
+                var isOn = false;
+                function switchPower() {
+                    if (!isOn) {
+                        getAjax('switch_On', comtype, 6, function (json) {
+                            isOn = true;
+                        });
+                    }
+                    else {
+                        getAjax('switch_Off', comtype, 6, function (json) {
+                            isOn = false;
+                        });
+                    }
+
+                    if ($(this).hasClass('active')) {
+                        $(this).removeClass('active');
+                    } else {
+                        $(this).addClass('active');
+                    }
+                }
+
+                //摄像头停止转动
+                function switch_stop() {
+                    //alert("789")
+                    //fullScreen();
+                    round_Common('switch_stop');
+                }
+
+                //摄像头上下左右
+                function round_up() {
+                    round_Common('round_up');
+                }
+                function round_down() {
+                    round_Common('round_down');
+                }
+                function round_left() {
+                    round_Common('round_left');
+                }
+                function round_right() {
+                    round_Common('round_right');
+                }
+                //摄像头斜向
+                function round_upleft() {
+                    //alert("left");
+                    round_Common('round_upleft');
+                }
+                function round_upright() {
+                    round_Common('round_upright');
+                }
+                function round_downleft() {
+                    round_Common('round_downleft');
+                }
+                function round_downright() {
+                    round_Common('round_downright');
+                }
+
+
+                //摄像头对角停止转动
+                function switch_corner_stop() {
+                    round_Common('switch_corner_stop');
+                }
+
+                //焦距
+                function jiaoju_stop() {
+
+                    round_Common('jiaoju_stop');
+                }
+
+                //焦距
+                function jiaoju_add() {
+
+                    var data = {
+                        func: 'SendCodeToCamera_Near',
+                        datalength: 6,
+                        comType: comtype
+                    }
+
+                    getAjax_far_near(data, function (json) {
+
+                    });
+                }
+                function jiaoju_reduce() {
+                    var data = {
+                        func: 'SendCodeToCamera_Far',
+                        datalength: 6,
+                        comType: comtype
+                    }
+
+                    getAjax_far_near(data, function (json) {
+
+                    });
+                }
+
+                //通用函数（传入code）
+                function round_Common(code) {
+                    getAjax(code, comtype, 9, function (json) {
+                        //console.log(JSON.stringify(json));
+                        //alert("2");
+                    });
+                }
+
+                function fullScreen() {
+                    var el = document.documentElement,
+                      rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen,
+                      wscript;
+
+                    if (typeof rfs != "undefined" && rfs) {
+                        rfs.call(el);
+                        return;
+                    }
+
+                    if (typeof window.ActiveXObject != "undefined") {
+                        wscript = new ActiveXObject("WScript.Shell");
+                        if (wscript) {
+                            wscript.SendKeys("{F11}");
+                        }
+                    }
+                }
+
+                function exitFullScreen() {
+                    var el = document,
+                      cfs = el.cancelFullScreen || el.webkitCancelFullScreen || el.mozCancelFullScreen || el.exitFullScreen,
+                      wscript;
+
+                    if (typeof cfs != "undefined" && cfs) {
+                        cfs.call(el);
+                        return;
+                    }
+
+                    if (typeof window.ActiveXObject != "undefined") {
+                        wscript = new ActiveXObject("WScript.Shell");
+                        if (wscript != null) {
+                            wscript.SendKeys("{F11}");
+                        }
+                    }
+                }
+
+            </script>
+
+
+        </div>
+    </form>
+</body>
+</html>
